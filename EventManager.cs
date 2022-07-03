@@ -34,22 +34,4 @@ public class EventManager : MonoBehaviour
                         theGraph.edgeEditType = EdgeType.TRAIN;
 
     }
-
-    /*public void ZoomOut()
-    {
-        mainCamera.orthographicSize += 0.1f;
-        Vector3 newPos = mainCamera.transform.position  -(mainCamera.transform.position - mainCamera.ScreenToWorldPoint(Input.mousePosition)) / 10;
-        newPos.z = -10;
-        mainCamera.transform.position = newPos;
-
-
-    }
-    
-    public void ZoomIn()
-    {
-        mainCamera.orthographicSize -= 0.1f;
-        Vector3 newPos = mainCamera.transform.position  -(mainCamera.transform.position - mainCamera.ScreenToWorldPoint(Input.mousePosition)) / 10;
-        newPos.z = -10;
-        mainCamera.transform.position = newPos;
-    }*/
 }
